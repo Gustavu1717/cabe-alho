@@ -1,0 +1,64 @@
+.comp-rodape{
+    width: 100%;
+    height: 24vh;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        margin: 2px 100px;
+    }
+    
+    
+    .informacoes{
+        a{
+            margin-bottom: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+        }
+        h2{
+            font-size: 18px;
+        }
+
+        display: flex;
+        flex-direction: column;
+        div{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            img{
+                width: 40px;
+            }
+        }
+        .rede{
+            img{
+                width: 30px;
+            }
+        }
+      
+    }
+    
+  
+
+    hr{
+        width: 93%;
+        margin-top: 27px;
+        border: 1.5px #444444 solid ;
+        border-radius: 20px;
+    }
+
+    p{
+        
+        font-size: 9px;
+        width: 600px;
+        text-align: center;
+    }
+
+}
+
